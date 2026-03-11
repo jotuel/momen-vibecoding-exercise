@@ -1,0 +1,3 @@
+# Momen MCP - Do not commit credentials
+credentials.json
+*.tmp

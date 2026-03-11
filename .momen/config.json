@@ -1,0 +1,5 @@
+{
+  "authEndpoint": "https://auth.momen.app/login",
+  "apiBaseUrl": "https://backend.momen.app",
+  "callbackPort": 8088
+}

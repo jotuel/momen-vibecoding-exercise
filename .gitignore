@@ -38,4 +38,6 @@ $RECYCLE.BIN/
 .directory
 .Trash-*
 .nfs*
+project-context.json
+node_modules/
 
