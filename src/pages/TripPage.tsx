@@ -140,7 +140,8 @@ const TripPage = () => {
     );
   }
 
-  const formatDate = (dateString: string) => {
+  const formatDate = (dateString: string | null) => {
+    if (!dateString) return "Date not specified";
     try {
       return format(new Date(dateString), "EEEE, MMMM d, yyyy");
     } catch (e) {
@@ -148,7 +149,8 @@ const TripPage = () => {
     }
   };
 
-  const formatTime = (timeString: string) => {
+  const formatTime = (timeString: string | null) => {
+    if (!timeString) return "--:--";
     // Remove seconds and timezone if present for simpler display
     return timeString.substring(0, 5);
   };

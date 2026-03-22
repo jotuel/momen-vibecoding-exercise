@@ -73,7 +73,17 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       <footer className="border-t py-6 text-center text-muted-foreground text-sm bg-muted/40">
         <div className="container mx-auto px-4">
-          <p>© {new Date().getFullYear()} TripPlanner. Powered by Momen.</p>
+          <p>
+            © {new Date().getFullYear()} TripPlanner. Powered by Momen. |{' '}
+            <a
+              href="https://github.com/jotuel/momen-vibecoding-exercise"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Source Code
+            </a>
+          </p>
         </div>
       </footer>
     </div>
