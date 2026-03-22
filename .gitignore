@@ -40,4 +40,5 @@ $RECYCLE.BIN/
 .nfs*
 project-context.json
 node_modules/
+dist/
 

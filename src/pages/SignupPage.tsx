@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useMutation, gql } from '@apollo/client';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { UserPlus, User, Lock, Loader2, AlertCircle } from 'lucide-react';
 
 const SIGNUP_MUTATION = gql`
@@ -22,7 +22,6 @@ const SIGNUP_MUTATION = gql`
 `;
 
 const SignupPage = () => {
-  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     username: '',
     password: '',

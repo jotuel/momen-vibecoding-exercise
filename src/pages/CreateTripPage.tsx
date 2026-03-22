@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useMutation, useApolloClient, gql } from '@apollo/client';
 import { useNavigate } from 'react-router-dom';
 import { Calendar, MapPin, Clock, DollarSign, Loader2, Sparkles } from 'lucide-react';
